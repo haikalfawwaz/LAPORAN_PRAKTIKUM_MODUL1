@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main() {
+    int harga_a, harga_b, diskon_a, diskon_b;
+    harga_a = 400000;
+    harga_b = 350000;
+    diskon_a = harga_a - (harga_a * 13 / 100);
+    diskon_b = harga_b - (harga_b * 21 / 100);
+
+    printf("Harga sepatu A adalah %d\n", harga_a);
+    printf("Harga sepatu B adalah %d\n", harga_b);
+    printf("Sepatu A mendapat diskon 13%% sehingga harganya menjadi %d\n", diskon_a);
+    printf("Sepatu B mendapat diskon 21%% sehingga harganya menjadi %d\n", diskon_b);
+    return 0;
+}
